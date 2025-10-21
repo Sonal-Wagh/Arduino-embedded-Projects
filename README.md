@@ -10,25 +10,25 @@ To develop a digital lock system using an Arduino-controlled keypad, LCD screen,
 
 **2.Key Features**
 
-Keypad Input: Allows user to enter a secure password.
+a.Keypad Input: Allows user to enter a secure password.
 
-LCD Display: Provides feedback on input and system state (e.g., “Enter Password”, “Access Granted”, “Access Denied”).
+b.LCD Display: Provides feedback on input and system state (e.g., “Enter Password”, “Access Granted”, “Access Denied”).
 
-Servo Motor: Acts as the physical lock mechanism.
+c.Servo Motor: Acts as the physical lock mechanism.
 
-Buzzer: Emits a sound for each incorrect password attempt.
+d.Buzzer: Emits a sound for each incorrect password attempt.
 
-Password Reset: Entering "####" triggers a password reset after verifying the current password.
+e.Password Reset: Entering "####" triggers a password reset after verifying the current password.
 
 **3.Working Principle**
 
 User enters the password through the keypad.
 
-If correct, the servo unlocks (rotates).
+a.If correct, the servo unlocks (rotates).
 
-If incorrect, the buzzer sounds, and access is denied.
+b.If incorrect, the buzzer sounds, and access is denied.
 
-If "####" is entered, the system enters reset mode, allowing the user to set a new password after verification.
+c.If "####" is entered, the system enters reset mode, allowing the user to set a new password after verification.
 
 **4.Components Used**
 
@@ -51,19 +51,19 @@ To design a system capable of monitoring and displaying the number of people ent
 
 **2.Key Features**
 
-Bidirectional Counting: Accurately detects entry and exit using two PIR sensors.
+a.Bidirectional Counting: Accurately detects entry and exit using two PIR sensors.
 
-LCD Display: Continuously displays the current count of individuals in the room.
+b.LCD Display: Continuously displays the current count of individuals in the room.
 
-Automatic Adjustment: Increments or decrements count based on motion sequence.
+c.Automatic Adjustment: Increments or decrements count based on motion sequence.
 
 **3.Working Principle**
 
-PIR Sensor 1 detects motion at the entrance → person entering.
+a.PIR Sensor 1 detects motion at the entrance → person entering.
 
-PIR Sensor 2 detects motion at the exit → person leaving.
+b.PIR Sensor 2 detects motion at the exit → person leaving.
 
-The system updates the count accordingly and displays it on the LCD.
+c.The system updates the count accordingly and displays it on the LCD.
 
 **4.Components Used**
 
